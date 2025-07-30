@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Qualifications</title>
+        <style>
+            body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            border: 2px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            background-color: rgb(191, 236, 236);
+        }
+
+        img {
+            float: right;
+            width: 200px;
+            margin: 20px;
+            border-radius: 10px;
+            border: 2px solid #888;
+        }
+
+        .box-container {
+            flex-direction: row;
+            display: flex;
+            justify-content: flex-start;
+            gap: 100px;
+            margin-top: 50px;
+            margin-bottom: 80px;
+            margin-left: 150px;
+        }
+
+        .box {
+            text-decoration: none;
+            background-color: #e0f7fa;
+            border: 2px solid #00796b;
+            padding: 30px 50px;
+            font-size: 20px;
+            color: #004d40;
+            font-weight: bold;
+            border-radius: 15px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .box:hover {
+            background-color: #b2dfdb;
+            transform: scale(1.05);
+        }
+
+        p, ul {
+            margin-left: 180px;
+            font-size: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <p>
+            <h1 style="text-align: center; font-family: 'Times New Roman', Times, serif;">
+                Resume
+            </h1>
+            <img src="myimage.jpg" alt="My Photo">
+        </p>
+        
+        <section style="margin-bottom: 80px; font-family: 'Times New Roman', Times, serif;">
+            <h2 style="margin-left: 140px; font-size: 22px;">Qualifications</h2><br>
+            <ul>
+            <li>10th from Greater Noida World School, Greater Noida</li>
+            <li>12th from Greater Noida World School, Greater Noida</li>
+            <li>BSc in Maths from Veer Bahadur Singh Purvanchal University, Jaunpur</li>
+            <li>B.Tech in CSE AI from Noida Institute Of Engineering And Technology, Greater Noida</li>
+            <li>6 Months Nda coaching at Doon Defence Carrer Point, Dehradun</li>
+        </ul>
+        </section>
+
+        <section> 
+            <div class = "box-container">
+                <a href = "Homepage.html" class="box">Introduction</a>
+                <a href="Skills.html" class="box">Skills</a>
+                <a href="Contactinfo.html" class="box">Contact Info</a>
+                <a href="hobbies.html" class="box">Hobbies</a>
+            </div>
+        </section>
+    </body>
+</html>
